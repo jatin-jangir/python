@@ -4,7 +4,7 @@ def armstrong(num):
     sum=0
     while num>0:
         t=num%10
-        sum=sum+t **lens
+        sum=sum+t**lens
         num=num//10
     if temp==sum:
         return True
