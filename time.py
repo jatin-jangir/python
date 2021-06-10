@@ -19,4 +19,4 @@ if __name__=="__main__":
     init=time()
     for i in range(0,1000000):
           func2(3,5)
-    print("function 1st time ",time()-init)
+    print("function 1st time -- ",time()-init)
